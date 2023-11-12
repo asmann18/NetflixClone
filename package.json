@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^1.6.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.5"
+  },
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch assets/styles/style.scss assets/styles/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
